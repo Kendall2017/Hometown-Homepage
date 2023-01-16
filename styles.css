@@ -1,0 +1,105 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+
+#FFFFFF for white;
+#228B22 for forest green;
+#EBCFB2 for desert sand;
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Oxygen', sans-serif;
+    background-color: #EBCFB2
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #228B22;
+    border-radius: 50%;
+}
+
+#hero {
+    background-image: url(images/shreveport-water.jpg);
+    height: 750px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+      
+}
+
+#title {
+    color: black;
+    font-size: 4em;
+    
+}
+
+.hero-text {
+    background: rgba(235, 207, 178, 0.7);
+    margin: auto auto;
+    
+}
+
+#subtitle {
+    color: black;
+    font-size: 2em;
+}
+
+#activity-heading {
+    font-size: 2em;
+    padding: 10px 10px;
+    background-color: #228B22;
+    color: #EBCFB2;
+    margin: 0;  
+}
+
+.activity-section {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding-top: 50px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.activity {
+    width: 250px;
+    padding-bottom: 25px;
+}
+
+.activity-name {
+    font-size: 1.4em;
+    color:#228B22;  
+}
+
+.guide {
+    display: flex;
+    width: 700px;
+    height: auto;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #228B22;
+    border-radius: 25px;
+    color: #EBCFB2;
+}
+
+.guide-img {
+    margin: auto 30px;
+    
+    
+}
+
+guide.info {
+    width: 400px;
+    margin: auto 0;
+    
+}
+
+.guide-text {
+    font-size: 1.2em;
+}
